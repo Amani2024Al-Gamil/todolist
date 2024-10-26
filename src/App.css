@@ -1,0 +1,63 @@
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+body{background-color: #1e3b8af5;
+font-family: Georgia, 'Times New Roman', Times, serif;}
+.App{border: 5px solid white;
+border-radius: 20px;
+box-shadow: 5px 5px 5px white;
+outline-offset: 10px;
+outline: 10px solid white;
+padding: 50px;
+margin: 10% 10%;
+text-align: center;
+color: white;
+font-weight: bolder;
+font-style: italic;}
+.App ul {
+    list-style: '📖';
+    padding: 5px;
+}
+li{word-wrap: break-word;
+width: 50%;
+height: 50px;
+padding: 10px;
+font-weight: bolder;
+font-size: 25px;}
+input{width: 100%;
+    margin-top: 50px;
+height: 50px;
+border-radius: 50px;
+outline: none;
+font-size: 25px;
+padding: 10px;
+}
+button{display: block;
+    font-size: 20px;
+margin: auto;
+margin-top: 50px;
+width: 100px;
+height: 50px;
+padding: 5px;
+border-radius: 10px;
+background-color:black;
+outline-offset: 5px;
+outline: 5px solid black;
+color: white;
+font-weight: bolder;
+cursor: pointer;}
+.difstyle{list-style: '💯';
+text-decoration: line-through;
+background-color: black;
+border-radius: 10px;
+}
+.div10{display: flex;
+justify-content: space-between;
+align-items: center;
+cursor: pointer;}
+@media(max-width:768px){
+    .app{width: 100%;}
+}
+@media(max-width:567px){
+    .app{width: 100%;}
+}
